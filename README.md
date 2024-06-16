@@ -6,7 +6,7 @@
 </p>
 
 <h1>Networking Concepts with Wireshark - Prerequisites and Installation</h1>
-This tutorial outlines the installationn and traffic capture of the open-source packet analyzing system Wireshark.<br />
+This tutorial outlines the installation and traffic capture of the open-source packet analyzing system Wireshark.<br />
 
 <h2>Environments and Technologies Used</h2>
 
