@@ -32,24 +32,17 @@ This tutorial outlines the installation and traffic capture of the open-source p
 <p>
 
 ![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/11542da1-56c1-4577-9be7-870197b7c10b)
+![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/ec7e3428-d1cb-4bb4-972f-5bf1cbc021d7)
 ![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/0beb5a3d-74f3-4132-8b3e-e264f1fe2508)
 
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To start this project, first create your resource group in Azure. Then, create your Windows 10 VM and set up a user name and password that will be used to connect to it later. The Windows 10 VM will be named "VM1"
 </p>
 <br />
 
 <p>
-
-![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/ec7e3428-d1cb-4bb4-972f-5bf1cbc021d7)
-
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 <p>
 
@@ -58,7 +51,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once the Windows 10 VM has been created, create another VM in Azure that is going to be running Ubuntu Linux. This will be named "VM2". On VM2, make sure your virtual network is created in the same resource group you used for VM1.
 </p>
 <br />
 
