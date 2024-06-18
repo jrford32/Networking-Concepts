@@ -89,7 +89,7 @@ To ping VM2, open Powershell and type 'ping 10.0.0.5'. Once entered, you should 
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Continuing with ICMP traffic, we are going to see how changing firewall settings will affect the traffic that is being shown. First, initiate a pertpetual/non-stop ping to VM2 'ping -t 10.0.0.5'. You should see constant traffic flowing on both Powershell and Wireshark.
 </p>
 <br />
 
@@ -101,7 +101,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+On your host machine, go back to Azure and search 'Network Security Groups' and look for security settings for VM2. Go to the 'Inbound security rules' on the left side panel and you will see the current security rules for VM2 traffic. Click 'Add' and select ICMP for the protocol and Deny for your action. Save your new rule and go back to your virtual machine to view the current traffic. Your non-stop ping from earlier should be displaying 'Request timed out' and your Wireshark traffic should be unable to find a response as well. This is because we have block all ICMP traffic on the network.
 </p>
 <br />
 
