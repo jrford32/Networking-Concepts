@@ -101,7 +101,7 @@ Continuing with ICMP traffic, we are going to see how changing firewall settings
 
 </p>
 <p>
-On your host machine, go back to Azure and search 'Network Security Groups' and look for security settings for VM2. Go to the 'Inbound security rules' on the left side panel and you will see the current security rules for VM2 traffic. Click 'Add' and select ICMP for the protocol and Deny for your action. Save your new rule and go back to your virtual machine to view the current traffic. Your non-stop ping from earlier should be displaying 'Request timed out' and your Wireshark traffic should be unable to find a response as well. This is because we have block all ICMP traffic on the network.
+On your host machine, go back to Azure and search 'Network Security Groups' and look for security settings for VM2. Go to the 'Inbound security rules' on the left side panel and you will see the current security rules for VM2 traffic. Click 'Add' and select ICMP for the protocol and Deny for your action. Save your new rule and go back to your virtual machine to view the current traffic. Your non-stop ping from earlier should be displaying 'Request timed out' and your Wireshark traffic should be unable to find a response as well. This is because we have block all ICMP traffic on the network. Clear your command line (Ctrl + C) and we will move on to bewing ssh (Secure Shell) traffic.
 </p>
 <br />
 
@@ -114,7 +114,7 @@ On your host machine, go back to Azure and search 'Network Security Groups' and 
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Filter for SSH traffic inside Wireshark. We are going to connect to our VM2 command line from VM1. To do this, inside Powershell type 'ssh labuser@10.0.0.5' with labuser being the username we created and 10.0.0.5 being the private IP address of VM2. Type in the password (note: you may not be able to see the password being entered. Just have faith in what you're typing and if you mess up you can try again.) and you should see yourself connected to the Linux shell (green font). You should also see SSH traffic in Wireshark as you're connected to VM2.
 </p>
 <br />
 
