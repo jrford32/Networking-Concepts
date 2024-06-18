@@ -55,19 +55,15 @@ Once the Windows 10 VM has been created, create another VM in Azure that is goin
 </p>
 <br />
 
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
 <p>
 
 ![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/0129e067-52e3-44cf-b490-72faa39b2fb9)
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once both VMs are running, make a note of the private IP address of VM2 (mine is 10.0.0.5) and log into the Remote Desktop Connection using the public IP address of VM1. We will be pinging VM2 from VM1 later on in the lab. 
+
+Inside your VM, search 'Wireshark' in whatever search engine you are using and download the Windows version of the program.  
 </p>
 <br />
 
@@ -75,7 +71,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Inside Wireshark, start off by filtering for ICMP traffic so we can view this traffic while pinging to VM2.
 </p>
 <br />
 
@@ -85,7 +81,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To ping VM2, open Powershell and type 'ping 10.0.0.5'. Once entered, you should be able to see all of the ICMP traffic that occurred when you pinged to VM2.
 </p>
 <br />
 
