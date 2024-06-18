@@ -107,6 +107,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <p>
 
 ![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/285032e3-b16c-4a8a-a37a-10880e722ed3)
+![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/23f0867d-017a-453a-88ed-052ee6526fd8)
+
+
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+
+![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/890b7561-8c3d-4a1f-9bec-7e1b02057f5c)
+![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/133e1a4e-ebd2-4bad-8deb-8e5a60dc0eb4)
+![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/c9cb917c-3af5-4c83-807e-be4c30166099)
+
 
 </p>
 <p>
@@ -123,7 +138,34 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/5bc03062-2e4b-4624-aeb0-ce0abe20ea84)
+![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/21dd4bc0-2670-4680-9a9c-bee7c57da44e)
+
+
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+
+![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/77ead1d6-aa00-459c-90f2-b5432030bb7a)
+![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/ca365b8c-fb6f-4010-9fa8-2fc41ec0b503)
+![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/b71c389a-9fa5-4c30-8870-91871d826844)
+
+
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+
+![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/e0698b71-8e39-4b6f-879d-69dfba4ff20e)
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
