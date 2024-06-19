@@ -119,14 +119,6 @@ Filter for SSH traffic inside Wireshark. We are going to connect to our VM2 comm
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
 
 ![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/5bc03062-2e4b-4624-aeb0-ce0abe20ea84)
 ![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/21dd4bc0-2670-4680-9a9c-bee7c57da44e)
@@ -134,7 +126,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, we will view DHCP traffic. Filter DCHP traffic in Wireshark and we are going to request our VM to issue us a new ip address. In Powershell, type 'ipconfig /renew'. You can see we have some DHCP traffic in Wireshark and a new ip address is showing in our command line. 
 </p>
 <br />
 
