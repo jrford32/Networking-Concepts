@@ -139,7 +139,7 @@ Next, we will view DHCP traffic. Filter DCHP traffic in Wireshark and we are goi
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The next protocol we will look at is DNS. To see how DNS is displayed in Wireshark, go to your command line so we can search the IP address for a website. The first website I used was Google. Enter 'nslookup www.google.com' and you should see the DNS traffic in Wireshark along with the ip address for Google. I did the same thing for Netflix, 'nslookup www.netflix.com'.
 </p>
 <br />
 
