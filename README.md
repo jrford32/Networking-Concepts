@@ -19,14 +19,6 @@ This tutorial outlines the installation and traffic capture of the open-source p
 - Windows 10</b> (21H2)
 - Ubuntu Server 20.04
 
-<h2>List of Prerequisites</h2>
-
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-
 <h2>Installation Steps</h2>
 
 <p>
@@ -38,7 +30,7 @@ This tutorial outlines the installation and traffic capture of the open-source p
 
 </p>
 <p>
-To start this project, first create your resource group in Azure. Then, create your Windows 10 VM and set up a user name and password that will be used to connect to it later. The Windows 10 VM will be named "VM1"
+To start this project, first create your resource group in Azure. Then, create your Windows 10 VM and set up a username and password that will be used to connect to it later. The Windows 10 VM will be named "VM1"
 </p>
 <br />
 
@@ -81,7 +73,7 @@ Inside Wireshark, start off by filtering for ICMP traffic so we can view this tr
 
 </p>
 <p>
-To ping VM2, open Powershell and type 'ping 10.0.0.5'. Once entered, you should be able to see all of the ICMP traffic that occurred when you pinged to VM2.
+To ping VM2, open Powershell and type 'ping 10.0.0.5'. Once entered, you should be able to see all of the ICMP traffic that occurred when you pinged VM2.
 </p>
 <br />
 
@@ -89,7 +81,7 @@ To ping VM2, open Powershell and type 'ping 10.0.0.5'. Once entered, you should 
 
 </p>
 <p>
-Continuing with ICMP traffic, we are going to see how changing firewall settings will affect the traffic that is being shown. First, initiate a pertpetual/non-stop ping to VM2 'ping -t 10.0.0.5'. You should see constant traffic flowing on both Powershell and Wireshark.
+Continuing with ICMP traffic, we are going to see how changing firewall settings will affect the traffic that is being shown. First, initiate a perpetual/non-stop ping to VM2 'ping -t 10.0.0.5'. You should see constant traffic flowing on both Powershell and Wireshark.
 </p>
 <br />
 
@@ -101,7 +93,7 @@ Continuing with ICMP traffic, we are going to see how changing firewall settings
 
 </p>
 <p>
-On your host machine, go back to Azure and search 'Network Security Groups' and look for security settings for VM2. Go to the 'Inbound security rules' on the left side panel and you will see the current security rules for VM2 traffic. Click 'Add' and select ICMP for the protocol and Deny for your action. Save your new rule and go back to your virtual machine to view the current traffic. Your non-stop ping from earlier should be displaying 'Request timed out' and your Wireshark traffic should be unable to find a response as well. This is because we have block all ICMP traffic on the network. Clear your command line (Ctrl + C) and we will move on to bewing ssh (Secure Shell) traffic.
+On your host machine, go back to Azure and search 'Network Security Groups' and look for security settings for VM2. Go to the 'Inbound security rules' on the left side panel and you will see the current security rules for VM2 traffic. Click 'Add' and select ICMP for the protocol and Deny for your action. Save your new rule and go back to your virtual machine to view the current traffic. Your non-stop ping from earlier should be displaying 'Request timed out' and your Wireshark traffic should be unable to find a response as well. This is because we have block all ICMP traffic on the network. Clear your command line (Ctrl + C) and we will move on to being ssh (Secure Shell) traffic.
 </p>
 <br />
 
@@ -126,7 +118,7 @@ Filter for SSH traffic inside Wireshark. We are going to connect to our VM2 comm
 
 </p>
 <p>
-Next, we will view DHCP traffic. Filter DCHP traffic in Wireshark and we are going to request our VM to issue us a new ip address. In Powershell, type 'ipconfig /renew'. You can see we have some DHCP traffic in Wireshark and a new ip address is showing in our command line. 
+Next, we will view DHCP traffic. Filter DCHP traffic in Wireshark and we are going to request our VM to issue us a new IP address. In Powershell, type 'ipconfig /renew'. You can see we have some DHCP traffic in Wireshark and a new IP address is showing in our command line. 
 </p>
 <br />
 
@@ -139,7 +131,7 @@ Next, we will view DHCP traffic. Filter DCHP traffic in Wireshark and we are goi
 
 </p>
 <p>
-The next protocol we will look at is DNS. To see how DNS is displayed in Wireshark, go to your command line so we can search the IP address for a website. The first website I used was Google. Enter 'nslookup www.google.com' and you should see the DNS traffic in Wireshark along with the ip address for Google. I did the same thing for Netflix, 'nslookup www.netflix.com'.
+The next protocol we will look at is DNS. To see how DNS is displayed in Wireshark, go to your command line so we can search the IP address for a website. The first website I used was Google. Enter 'nslookup www.google.com' and you should see the DNS traffic in Wireshark along with the IP address for Google. I did the same thing for Netflix, 'nslookup www.netflix.com'.
 </p>
 <br />
 
