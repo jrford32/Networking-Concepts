@@ -11,8 +11,10 @@ This tutorial outlines the installation and traffic capture of the open-source p
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure Network Security Groups
 - Remote Desktop
 - Wireshark
+
 
 <h2>Operating Systems Used </h2>
 
@@ -93,7 +95,7 @@ Continuing with ICMP traffic, we are going to see how changing firewall settings
 
 </p>
 <p>
-On your host machine, go back to Azure and search 'Network Security Groups' and look for security settings for VM2. Go to the 'Inbound security rules' on the left side panel and you will see the current security rules for VM2 traffic. Click 'Add' and select ICMP for the protocol and Deny for your action. Save your new rule and go back to your virtual machine to view the current traffic. Your non-stop ping from earlier should be displaying 'Request timed out' and your Wireshark traffic should be unable to find a response as well. This is because we have block all ICMP traffic on the network. Clear your command line (Ctrl + C) and we will move on to being ssh (Secure Shell) traffic.
+On your host machine, go back to Azure and search 'Network Security Groups', and look for security settings for VM2. Go to the 'Inbound security rules' on the left side panel and you will see the current security rules for VM2 traffic. Click 'Add' and select ICMP for the protocol and Deny for your action. Save your new rule and go back to your virtual machine to view the current traffic. Your non-stop ping from earlier should be displaying 'Request timed out' and your Wireshark traffic should be unable to find a response as well. This is because we have blocked all ICMP traffic on the network. Clear your command line (Ctrl + C) and we will move on to SSH (Secure Shell) traffic.
 </p>
 <br />
 
@@ -137,34 +139,5 @@ The next protocol we will look at is DNS. To see how DNS is displayed in Wiresha
 
 <p>
 
-![image](https://github.com/jrford32/Networking-Concepts/assets/101678489/e0698b71-8e39-4b6f-879d-69dfba4ff20e)
-
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h1>Summary</h1>
+The purpose of this lab was to gain exposure to the network protocol analyzer tool Wireshark as well seeing how different commands impact your computer while seeing the live traffic through Wireshark.
